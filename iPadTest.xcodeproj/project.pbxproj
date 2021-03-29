@@ -13,6 +13,7 @@
 		634D9E962611984F00FC247F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634D9E942611984F00FC247F /* Main.storyboard */; };
 		634D9E982611985200FC247F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634D9E972611985200FC247F /* Assets.xcassets */; };
 		634D9E9B2611985200FC247F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634D9E992611985200FC247F /* LaunchScreen.storyboard */; };
+		634D9EA62611B13100FC247F /* Main_pad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634D9EA52611B13100FC247F /* Main_pad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		634D9E972611985200FC247F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		634D9E9A2611985200FC247F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		634D9E9C2611985200FC247F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634D9EA52611B13100FC247F /* Main_pad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main_pad.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,32 @@
 		634D9E8D2611984F00FC247F /* iPadTest */ = {
 			isa = PBXGroup;
 			children = (
+				634D9EA42611B10500FC247F /* iPad */,
+				634D9EA32611B0E800FC247F /* iPhone */,
 				634D9E8E2611984F00FC247F /* AppDelegate.swift */,
 				634D9E902611984F00FC247F /* SceneDelegate.swift */,
 				634D9E922611984F00FC247F /* ViewController.swift */,
-				634D9E942611984F00FC247F /* Main.storyboard */,
 				634D9E972611985200FC247F /* Assets.xcassets */,
 				634D9E992611985200FC247F /* LaunchScreen.storyboard */,
 				634D9E9C2611985200FC247F /* Info.plist */,
 			);
 			path = iPadTest;
+			sourceTree = "<group>";
+		};
+		634D9EA32611B0E800FC247F /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				634D9E942611984F00FC247F /* Main.storyboard */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		634D9EA42611B10500FC247F /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				634D9EA52611B13100FC247F /* Main_pad.storyboard */,
+			);
+			path = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +146,7 @@
 				634D9E9B2611985200FC247F /* LaunchScreen.storyboard in Resources */,
 				634D9E982611985200FC247F /* Assets.xcassets in Resources */,
 				634D9E962611984F00FC247F /* Main.storyboard in Resources */,
+				634D9EA62611B13100FC247F /* Main_pad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
