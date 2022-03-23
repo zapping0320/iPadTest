@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    private let sixteenkeystring:String = "zmflqxhxortm!@#$"
+    //private let sixteenkeystring:String = "zmflqxhxortm!@#$"
     
     private let threetwokeystring:String = "zmflqxhxortm!@#$zmflqxhxortm!@#$"
 
@@ -28,8 +28,10 @@ class ViewController: UIViewController {
 
 
     @IBAction func encrytAction(_ sender: Any) {
-        //resultLabel.text = AES256CBC.encryptString(currentText.text!, password: threetwokeystring)!
-        resultLabel.text = "not yet"
+        let resultString = AES256CBC.encryptString("{\"name\":\"최흥길\",\"phone\":\"01032040930\",\"carrier\":\"SKT\",\"jumin\":\"820713-1234567\"}", password: threetwokeystring)!//AES256CBC.encryptString(currentText.text!, password: threetwokeystring)!
+        resultLabel.text = resultString
+        print(resultString)
+        
     }
     
     @IBAction func decryptAction(_ sender: Any) {

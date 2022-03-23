@@ -15,6 +15,7 @@
 		634D9E982611985200FC247F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634D9E972611985200FC247F /* Assets.xcassets */; };
 		634D9E9B2611985200FC247F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634D9E992611985200FC247F /* LaunchScreen.storyboard */; };
 		634D9EA62611B13100FC247F /* Main_pad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634D9EA52611B13100FC247F /* Main_pad.storyboard */; };
+		E39FC56F27EAF102002E296A /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39FC56E27EAF102002E296A /* AES.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		7A877DF171FF6FBFBFB77D5E /* Pods_iPadTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iPadTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D2A0B622E968C5DBEA64CA4 /* Pods-iPadTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPadTest.debug.xcconfig"; path = "Target Support Files/Pods-iPadTest/Pods-iPadTest.debug.xcconfig"; sourceTree = "<group>"; };
 		E0D4F137FDB2861B865C4352 /* Pods-iPadTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPadTest.release.xcconfig"; path = "Target Support Files/Pods-iPadTest/Pods-iPadTest.release.xcconfig"; sourceTree = "<group>"; };
+		E39FC56E27EAF102002E296A /* AES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AES.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		634D9E8D2611984F00FC247F /* iPadTest */ = {
 			isa = PBXGroup;
 			children = (
+				E39FC56E27EAF102002E296A /* AES.swift */,
 				634D9EA42611B10500FC247F /* iPad */,
 				634D9EA32611B0E800FC247F /* iPhone */,
 				634D9E8E2611984F00FC247F /* AppDelegate.swift */,
@@ -107,7 +110,6 @@
 				8D2A0B622E968C5DBEA64CA4 /* Pods-iPadTest.debug.xcconfig */,
 				E0D4F137FDB2861B865C4352 /* Pods-iPadTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -209,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				634D9E932611984F00FC247F /* ViewController.swift in Sources */,
+				E39FC56F27EAF102002E296A /* AES.swift in Sources */,
 				634D9E8F2611984F00FC247F /* AppDelegate.swift in Sources */,
 				634D9E912611984F00FC247F /* SceneDelegate.swift in Sources */,
 			);
@@ -367,7 +370,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zenoTeam.iPadTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -387,7 +390,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zenoTeam.iPadTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
