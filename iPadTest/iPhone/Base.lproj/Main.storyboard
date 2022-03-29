@@ -65,6 +65,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5UC-NX-H60">
+                                <rect key="frame" x="156.66666666666666" y="94" width="100.66666666666666" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="업데이트 확인"/>
+                                <connections>
+                                    <action selector="forceQuitorNotAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eqe-QD-dUg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
@@ -75,9 +83,11 @@
                             <constraint firstItem="seO-N1-ONY" firstAttribute="leading" secondItem="zLB-zG-RGE" secondAttribute="trailing" constant="30" id="MxL-FG-2nT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="A8a-Zl-tet" secondAttribute="bottom" constant="150" id="NG9-TT-hRc"/>
                             <constraint firstItem="Nto-zD-7C4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="ON4-gG-p6C"/>
+                            <constraint firstItem="5UC-NX-H60" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PEX-pt-nss"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nsu-SS-hxF" secondAttribute="trailing" constant="30" id="QEv-gI-5sX"/>
                             <constraint firstItem="A8a-Zl-tet" firstAttribute="top" secondItem="Nto-zD-7C4" secondAttribute="bottom" constant="30" id="Upe-Bo-ubM"/>
                             <constraint firstItem="YJv-jU-uHv" firstAttribute="top" secondItem="Nto-zD-7C4" secondAttribute="top" id="Uzu-eG-hJ5"/>
+                            <constraint firstItem="5UC-NX-H60" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="bZO-1a-Eai"/>
                             <constraint firstItem="YJv-jU-uHv" firstAttribute="leading" secondItem="Nto-zD-7C4" secondAttribute="trailing" constant="30" id="dDu-JW-Tej"/>
                             <constraint firstItem="Nto-zD-7C4" firstAttribute="top" secondItem="zLB-zG-RGE" secondAttribute="bottom" constant="30" id="goa-M6-doh"/>
                             <constraint firstItem="4E4-cA-tMY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="j5Y-HX-9XZ"/>
